@@ -14,4 +14,4 @@ function click(){
 }
 console.log("ml5 version:", ml5.version);
 
-classifier = ml5.imageClassifier('://..com/models/v_sl95BzE/https://teachablemachine.withgoogle.com/models/ZPJpNvxrY/model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/ZPJpNvxrY/model.json',modelLoaded);
